@@ -27,9 +27,6 @@ public class GWD {
             System.setProperty(SimpleLogger.DEFAULT_LOG_LEVEL_KEY,"Error");
             System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY,"true");
 
-
-
-
            ChromeOptions options=new ChromeOptions();
            options.addArguments("--disable-notifications");
            WebDriverManager.chromedriver().setup();;
